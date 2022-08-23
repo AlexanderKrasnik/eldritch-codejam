@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-.desk{
+.root{
     background: url(/assets/home.png);
     height: 100vh;
     width: 100vw;
@@ -140,4 +140,25 @@
     padding: 5px;
     width: 115px;
     text-align: center;
+}
+
+.current-state{
+    display: none;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px;
+    border-style: double;
+    border-color: white;
+    padding: 5px;
+    width: 115px;
+    text-align: center;
+}
+
+.deck{
+    display: none;
+    background-image: url(/assets/mythicCardBackground.png);
+    background-size: cover;
+    height: 190px;
+    width: 130px;
+    cursor: pointer;
 }
