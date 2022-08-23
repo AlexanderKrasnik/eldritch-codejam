@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.desk{
+    background: url(/assets/home.png);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+
+.ancient-container{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.azathoth{
+    background:url(/assets/Ancients/Azathoth.png);
+    height: 260px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin:5px;
+    cursor: pointer;
+}
+
+
+.Cthulthu{
+    background:url(/assets/Ancients/Cthulthu.png);
+    height: 260px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin:5px;
+    cursor: pointer;
+}
+.IogSothoth{
+    background:url(/assets/Ancients/IogSothoth.png);
+    height: 260px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin:5px;
+    cursor: pointer;
+}
+.ShubNiggurath{
+    background:url(/assets/Ancients/ShubNiggurath.png);
+    height: 260px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin:5px;
+    cursor: pointer;
+}
+
+.difficulty-container{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: tomato;
+}
+
+.veryEasy{
+    margin: 10px;
+    cursor: pointer;
+    border: 2px;
+    border-style: double;
+    border-color: white;
+    padding: 5px;
+    width: 115px;
+    text-align: center;
+}
+.easy{
+    margin: 10px;
+    cursor: pointer;
+    border: 2px;
+    border-style: double;
+    border-color: white;
+    padding: 5px;
+    width: 115px;
+    text-align: center;
+}
+.normal{
+    margin: 10px;
+    cursor: pointer;
+    border: 2px;
+    border-style: double;
+    border-color: white;
+    padding: 5px;
+    width: 115px;
+    text-align: center;
+}
+.Hard{
+    margin: 10px;
+    cursor: pointer;
+    border: 2px;
+    border-style: double;
+    border-color: white;
+    padding: 5px;
+    width: 115px;
+    text-align: center;
+}
+.veryHard{
+    margin: 10px;
+    cursor: pointer;
+    border: 2px;
+    border-style: double;
+    border-color: white;
+    padding: 5px;
+    width: 115px;
+    text-align: center;
+}
+
+
+.deck-container{
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: tomato;
+}
+
+.shuffle-button{
+    margin: 10px;
+    cursor: pointer;
+    border: 2px;
+    border-style: double;
+    border-color: white;
+    padding: 5px;
+    width: 115px;
+    text-align: center;
+}
